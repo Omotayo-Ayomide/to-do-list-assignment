@@ -28,6 +28,33 @@
   color: #61dafb;
 }
 
+/* Default Light Theme */
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+.App.light button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.App.dark {
+  background-color: #333;
+  color: white;
+}
+
+.App.dark button {
+  background-color: #f44336;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
